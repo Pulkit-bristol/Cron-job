@@ -5,10 +5,10 @@ name: Python application
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-  schedule:
+ #   branches: [ "main" ]
+ # pull_request:
+ #   branches: [ "main" ]
+ # schedule:
     - cron: '* * * * *' # Runs daily at 2:00 AM UTC
 
 permissions:
